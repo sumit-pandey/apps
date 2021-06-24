@@ -7,4 +7,4 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
       - run: yarn
-      - run: yarn run affected:test -- --base=remotes/origin/main
+      - run: yarn affected:build
