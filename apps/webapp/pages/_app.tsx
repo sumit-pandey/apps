@@ -7,7 +7,7 @@ import { SharedUi } from '@twimbit/shared/ui';
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      hello
+      hello world
       <SharedUi />
     </>
   );
