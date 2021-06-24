@@ -4,13 +4,13 @@ import styled from 'styled-components';
 export interface SharedFeatureProps {}
 
 const StyledSharedFeature = styled.div`
-  color: pink;
+  color: green;
 `;
 
 export function SharedFeature(props: SharedFeatureProps) {
   return (
     <StyledSharedFeature>
-      <h1>Another shared comp new</h1>
+      <h1>changed new component</h1>
     </StyledSharedFeature>
   );
 }
