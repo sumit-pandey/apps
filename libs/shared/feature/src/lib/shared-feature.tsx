@@ -10,7 +10,7 @@ const StyledSharedFeature = styled.div`
 export function SharedFeature(props: SharedFeatureProps) {
   return (
     <StyledSharedFeature>
-      <h1>Another shared comp | comp</h1>
+      <h1>Another shared comp new</h1>
     </StyledSharedFeature>
   );
 }
