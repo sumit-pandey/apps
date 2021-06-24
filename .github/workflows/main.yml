@@ -25,6 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: mansagroup/nrwl-nx-action@v2
         with:
-            targe: build
-            affected: 'true'
+          targets: build
+          affected: 'true'
       
