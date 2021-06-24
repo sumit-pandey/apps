@@ -19,6 +19,26 @@
     }
   },
   "projects": {
+    "extension": {
+      "tags": []
+    },
+    "extension-e2e": {
+      "tags": [],
+      "implicitDependencies": ["extension"]
+    },
+    "partnersite": {
+      "tags": []
+    },
+    "partnersite-e2e": {
+      "tags": [],
+      "implicitDependencies": ["partnersite"]
+    },
+    "shared-feature": {
+      "tags": []
+    },
+    "shared-ui": {
+      "tags": []
+    },
     "webapp": {
       "tags": []
     },
